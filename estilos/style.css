@@ -12,13 +12,10 @@
 }
 
 body {
-    position: relative;
     background-color: #102723;
     background-image: url(../imagens/fundo1.jpg);  
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
 }
 
 header {
@@ -50,8 +47,6 @@ a {
 }
 
 footer {
-    position: absolute;
-    bottom: -5px;
     margin: 15px;
     padding: 10px;
 }
@@ -62,11 +57,4 @@ button {
     height: 30px;
     border: none;
     border-radius: 5px;
-}
-
-@media screen and (max-width: 500px) {
-    footer {
-        position: relative;
-    }
-    
 }
