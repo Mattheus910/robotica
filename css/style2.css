@@ -136,11 +136,12 @@ button:hover {
 
     header ul {
         gap: 8px;
+        margin: 20px 10px;
     }
 
     a {
         font-size: 10px;
-        font-weight: bold;
+        font-weight: 400;
     }
 
     #atual {
