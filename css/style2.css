@@ -25,6 +25,11 @@ body::before {
     opacity: 0.5;
     z-index: -1;
   }
+
+  main {
+    margin: auto;
+    padding: 0px 100px;
+  }
   
 
 header ul {
@@ -49,7 +54,7 @@ a {
     border-radius: 11px;
 }
 
-a:hover {
+li a:hover {
     padding: 5px 10px;
     background-color: #120625;
     border: 1px solid #fff;
@@ -92,5 +97,29 @@ p {
 
 .bloco {
     width: 412px;
+}
+
+#button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background: linear-gradient(187.72deg, #9811A1 -20.1%, rgba(34, 56, 164, 0) 165.12%);
+    width: 300px;
+    height: 76px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+button a {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #010411;
+    transition: 0.5s;
 }
 
