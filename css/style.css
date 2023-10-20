@@ -55,7 +55,8 @@ button:hover {
 }
 
 main {
-    width: 520px;
+    width: 100%;
+    max-width: 800px;
     text-align: center;
     margin: auto auto auto 40px;
 }
@@ -89,7 +90,7 @@ main p {
 
 main button {
     background: linear-gradient(187.72deg, #9811A1 -20.1%, rgba(34, 56, 164, 0) 165.12%);
-    width: 300px;
+    width: 80%;
     height: 76px;
     border: none;
     border-radius: 5px;
@@ -127,7 +128,61 @@ picture {
 }
 
 img {
-    width: 721px;
+    max-width: 721px;
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        width: 100vw;
+    }
+
+    header {
+        width: 100%;
+        gap: 10px;
+    }
+
+    header ul {
+        gap: 10px;
+    }
+
+    a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    span {
+        font-size: 70px;
+    }
+
+    #img {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    picture {
+        width: 100%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+
 }
 
 

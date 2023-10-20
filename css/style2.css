@@ -123,3 +123,51 @@ button:hover {
     transition: 0.5s;
 }
 
+@media screen and (max-width: 500px) {
+
+    body {
+        width: 100vw;
+    }
+
+    header {
+        width: 100%;
+        gap: 10px;
+    }
+
+    header ul {
+        gap: 8px;
+    }
+
+    a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    #atual {
+        padding: 4px;
+        border: 0.1px solid #fff;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .bloco {
+        margin: auto;
+        width: 90%;
+    }
+
+    h1 {
+        margin: 50px 50px 0px 50px;
+        font-size: 40px;
+    }
+
+}
+
