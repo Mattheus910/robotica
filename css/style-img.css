@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000d3f url(../imagens/image\ 3.png);
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+li a:hover {
+    padding: 5px 10px;
+    background-color: #120625;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #010411;
+    transition: 0.5s;
+}
+
+#atual {
+    padding: 5px 10px;
+    background-color: #120625;
+    border: 1px solid #fff;
+    border-radius: 11px;
+}
+
+h1 {
+    font-size: 77px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #6119A9, #9811A1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 50px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+}
+
+.img {
+    display: flex;
+    background: linear-gradient(187.72deg, #9811A1 -20.1%, rgba(34, 56, 164, 0) 165.12%);
+    width: 500px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+#button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background: linear-gradient(187.72deg, #9811A1 -20.1%, rgba(34, 56, 164, 0) 165.12%);
+    width: 300px;
+    height: 76px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+button a {
+    font-size: 32px;
+    font-weight: 500;
+}
