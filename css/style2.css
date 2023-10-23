@@ -26,9 +26,13 @@ body::before {
     z-index: -1;
   }
 
-  main {
+main {
     margin: auto;
     padding: 0px 100px;
+  }
+
+  main p {
+    text-indent: 1rem;
   }
   
 
@@ -159,6 +163,8 @@ button:hover {
         width: 100%;
         padding: 30px;
     }
+
+
 
     .bloco {
         margin: auto;
