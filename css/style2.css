@@ -14,6 +14,10 @@ body {
     color: #fff;
 }
 
+#video {
+    text-align: center;
+}
+
 body::before {
     content: "";
     background: #000d3f url(../imagens/toque.jpg) center/cover no-repeat;
