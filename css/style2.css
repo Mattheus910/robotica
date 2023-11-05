@@ -28,16 +28,16 @@ body::before {
     height: 100%;
     opacity: 0.5;
     z-index: -1;
-  }
+}
 
 main {
     margin: auto;
     padding: 0px 100px;
-  }
+}
 
-  main p {
+main p {
     text-indent: 1rem;
-  }
+}
   
 
 header ul {
@@ -103,6 +103,14 @@ p {
     justify-content: center;
 }
 
+#container-ref {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
 .bloco {
     width: 412px;
 }
@@ -119,6 +127,7 @@ button {
     border: none;
     border-radius: 5px;
     margin-top: 30px;
+    animation: pulso 2s ease-in-out infinite;
 }
 
 button a {
@@ -130,6 +139,25 @@ button:hover {
     background-color: #010411;
     transition: 0.5s;
 }
+
+.bloco > p > a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+@keyframes pulso {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.03);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 @media screen and (max-width: 500px) {
 
