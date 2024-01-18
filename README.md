@@ -18,15 +18,6 @@ O Robotica foi projetado para oferecer uma experiência consistente tanto em dis
 - HTML
 - CSS
 
-## Video Preview
-
-Assista a um vídeo de apresentação para ter uma visão rápida do projeto.
-
-<video width="640" height="360" controls>
-  <source src="imagens/recording.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
-
 ## Como Visualizar o Robotica
 
 Confira o Robotica ao vivo no seguinte link: [Robotica Hospedagem no GitHub](https://mattheus910.github.io/robotica/).
